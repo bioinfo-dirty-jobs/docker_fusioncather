@@ -45,6 +45,6 @@ WORKDIR /opt
 ## INSTALLATION
 ######################
 
-RUN   wget --no-check-certificate http://sf.net/projects/fusioncatcher/files/bootstrap.py  -O bootstrap.py && python bootstrap.py -t --download -y -i /opt/fusioncatcher/v1.00/'
+RUN wget --no-check-certificate http://sf.net/projects/fusioncatcher/files/bootstrap.py  -O bootstrap.py && python bootstrap.py -t --download -y -i /opt/fusioncatcher/v1.00/
 
 
